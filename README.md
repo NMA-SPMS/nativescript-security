@@ -48,3 +48,8 @@ let security.verifyFingerPrint(options).then(() => {
 ## Future plans
 - [ ] Detect if fingerprint has changed android/ios
 - [ ] Store secret in android keystore / ios keychain 
+
+## Credits
+ios implementation based on [nativescript-touchid](https://github.com/EddyVerbruggen/nativescript-touchid)
+
+android implementation based on [nativescript-android-confirm_credential](https://github.com/tsvetan-ganev/nativescript-android-confirm_credential)
