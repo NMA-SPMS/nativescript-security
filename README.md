@@ -17,7 +17,7 @@ import {Security} from 'nativescript-security';
 
 let security = new Security();
 
-let security.available().then(() => {
+security.available().then(() => {
   
 }).catch((error:any)=>{
   console.log(error);
@@ -37,7 +37,7 @@ let options:FingerprintOptions = {
 
 let security = new Security();
 
-let security.verifyFingerPrint(options).then(() => {
+security.verifyFingerPrint(options).then(() => {
   console.log('Verified OK');
 }).catch((error) => {
   console.log(error);
